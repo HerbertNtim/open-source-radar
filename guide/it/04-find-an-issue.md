@@ -46,3 +46,13 @@ Fai una valutazione onesta delle tue capacità. Una buona prima issue da affront
 - **Ha un ambito limitato.** Puoi individuare quale file o funzione potrebbe essere coinvolto. Cerca nel codice il messaggio di errore o il nome della funzione menzionata nell'issue.
 - **Non richiede una decisione progettuale.** Se i manutentori stanno ancora discutendo su *come* dovrebbe funzionare, aspetta.
 - **Funziona sul tuo computer.** Evita bug che si verificano solo su Windows se usi macOS, bug legati alla GPU se non ne hai una e situazioni simili.
+
+## Un metodo rapido per valutare le dimensioni di un'issue
+
+Dedica dai 20 ai 30 minuti a questa valutazione prima di decidere di occupartene:
+
+1. Clona il progetto ed esegui una volta la suite di test (capitolo 5).
+2. Riproduci il bug oppure individua nel codice il punto in cui implementare la funzionalità.
+3. Trova il test esistente relativo a quell'area del progetto.
+
+Se sei riuscito a completare tutte e tre le attività, probabilmente l'issue ha dimensioni adeguate. Se dopo 30 minuti sei ancora in difficoltà, prova a scegliere un'altra issue oppure poni una domanda specifica nell'issue (capitolo 7).
