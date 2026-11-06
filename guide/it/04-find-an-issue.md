@@ -13,3 +13,15 @@ is:issue is:open no:assignee -linked:pr label:"good first issue" language:python
 ```
 
 `no:assignee` nasconde le issue assegnate e `-linked:pr` nasconde quelle che hanno già una pull request collegata. Aggiungi `updated:>2026-06-01` (utilizzando una data recente) per escludere quelle non aggiornate da molto tempo.
+
+## Etichette che incontrerai
+
+| Etichetta | Di solito significa |
+| --- | --- |
+| `good first issue`, `first-timers-only`, `beginner`, `E-easy` | I manutentori ritengono che un nuovo contributore possa occuparsene, spesso con una guida |
+| `help wanted`, `PR welcome`, `up-for-grabs` | I responsabili vogliono che qualcun altro se ne occupi; non si tratta necessariamente di attività semplici |
+| `bug`, `confirmed`, `has: repro` | Un difetto reale; `confirmed` significa che un responsabile del progetto è riuscito a riprodurlo |
+| `needs-triage`, `needs-info`, `question` | Non è ancora pronto: il problema non è stato compreso a sufficienza |
+| `design`, `rfc`, `discussion`, `blocked` | Non è ancora pronto per una pull request; è in attesa di una decisione |
+
+Ogni progetto definisce le proprie etichette. Controlla le descrizioni nella pagina **Issues → Labels** del progetto.
