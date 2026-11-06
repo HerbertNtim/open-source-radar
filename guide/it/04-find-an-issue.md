@@ -25,3 +25,14 @@ is:issue is:open no:assignee -linked:pr label:"good first issue" language:python
 | `design`, `rfc`, `discussion`, `blocked` | Non è ancora pronto per una pull request; è in attesa di una decisione |
 
 Ogni progetto definisce le proprie etichette. Controlla le descrizioni nella pagina **Issues → Labels** del progetto.
+
+## Qualcun altro ci sta già lavorando?
+
+Prima di scrivere anche una sola riga di codice, controlla tutti questi aspetti:
+
+1. **Persone assegnate.** Se qualcuno è già assegnato all'issue, significa che è già stata presa in carico.
+2. **Pull request collegate.** Controlla la barra laterale destra ("Development") e la cronologia delle attività per trovare eventi come "linked a pull request" o "mentioned this issue" provenienti dalle PR. Una PR aperta significa che l'issue è già in lavorazione; una PR chiusa senza essere stata unita potrebbe indicare che l'approccio è stato rifiutato, quindi leggi le motivazioni.
+3. **Commenti.** Cerca messaggi come "Mi piacerebbe occuparmene" oppure "Ci sto lavorando". Se la dichiarazione di interesse è recente (qualche settimana) e la persona è ancora attiva, scegli un'altra issue.
+4. **Ricerca delle pull request aperte.** Cerca il numero dell'issue o alcune parole chiave del titolo. Non tutte le PR sono correttamente collegate alla relativa issue.
+
+Se il commento in cui qualcuno si propone di lavorarci è vecchio e la persona non dà più notizie, di solito puoi chiedere gentilmente: "Ciao @nome, stai ancora lavorando a questa issue? In caso contrario, mi piacerebbe occuparmene." Poi attendi qualche giorno.
