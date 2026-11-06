@@ -58,4 +58,4 @@ Una buona strategia: realizza i tuoi primi uno o due contributi in un progetto p
 - [ ] Ha una guida alla contribuzione e l'ho letta.
 - [ ] Riesco a compilare ed eseguire il progetto sul mio computer (il capitolo 5 tratta questo argomento).
 
-Prossimo capitolo: [Trovare un issue che puoi completare](../04-find-an-issue.md) (in inglese)
+Successivo: [Trova una issue che puoi completare](04-find-an-issue.md)
