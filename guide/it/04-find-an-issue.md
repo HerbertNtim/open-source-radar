@@ -56,3 +56,12 @@ Dedica dai 20 ai 30 minuti a questa valutazione prima di decidere di occupartene
 3. Trova il test esistente relativo a quell'area del progetto.
 
 Se sei riuscito a completare tutte e tre le attività, probabilmente l'issue ha dimensioni adeguate. Se dopo 30 minuti sei ancora in difficoltà, prova a scegliere un'altra issue oppure poni una domanda specifica nell'issue (capitolo 7).
+
+## Lista di controllo
+
+- [ ] Nessun assegnatario, nessuna PR aperta collegata e nessuna dichiarazione recente di interesse nei commenti.
+- [ ] So descrivere in una frase il comportamento atteso.
+- [ ] Ho riprodotto il problema oppure so esattamente dove apportare la modifica.
+- [ ] I manutentori non stanno ancora discutendo sull'approccio da seguire.
+
+Successivo: [La tua prima pull request, passo dopo passo](../05-first-pull-request.md)
