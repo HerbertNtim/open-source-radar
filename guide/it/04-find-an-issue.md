@@ -19,8 +19,8 @@ is:issue is:open no:assignee -linked:pr label:"good first issue" language:python
 | Etichetta | Di solito significa |
 | --- | --- |
 | `good first issue`, `first-timers-only`, `beginner`, `E-easy` | I manutentori ritengono che un nuovo contributore possa occuparsene, spesso con una guida |
-| `help wanted`, `PR welcome`, `up-for-grabs` | I responsabili vogliono che qualcun altro se ne occupi; non si tratta necessariamente di attività semplici |
-| `bug`, `confirmed`, `has: repro` | Un difetto reale; `confirmed` significa che un responsabile del progetto è riuscito a riprodurlo |
+| `help wanted`, `PR welcome`, `up-for-grabs` | I manutentori vogliono che qualcun altro se ne occupi; non si tratta necessariamente di attività semplici |
+| `bug`, `confirmed`, `has: repro` | Un difetto reale; `confirmed` significa che un manutentore è riuscito a riprodurlo |
 | `needs-triage`, `needs-info`, `question` | Non è ancora pronto: il problema non è stato compreso a sufficienza |
 | `design`, `rfc`, `discussion`, `blocked` | Non è ancora pronto per una pull request; è in attesa di una decisione |
 
@@ -30,10 +30,10 @@ Ogni progetto definisce le proprie etichette. Controlla le descrizioni nella pag
 
 Prima di scrivere anche una sola riga di codice, controlla tutti questi aspetti:
 
-1. **Persone assegnate.** Se qualcuno è già assegnato all'issue, significa che è già stata presa in carico.
-2. **Pull request collegate.** Controlla la barra laterale destra ("Development") e la cronologia delle attività per trovare eventi come "linked a pull request" o "mentioned this issue" provenienti dalle PR. Una PR aperta significa che l'issue è già in lavorazione; una PR chiusa senza essere stata unita potrebbe indicare che l'approccio è stato rifiutato, quindi leggi le motivazioni.
+1. **Persone assegnate.** Se qualcuno è già assegnato alla issue, significa che è già stata presa in carico.
+2. **Pull request collegate.** Controlla la barra laterale destra ("Development") e la cronologia delle attività per trovare eventi come "linked a pull request" o "mentioned this issue" provenienti dalle PR. Una PR aperta significa che la issue è già in lavorazione; una PR chiusa senza essere stata unita potrebbe indicare che l'approccio è stato rifiutato, quindi leggi le motivazioni.
 3. **Commenti.** Cerca messaggi come "Mi piacerebbe occuparmene" oppure "Ci sto lavorando". Se la dichiarazione di interesse è recente (qualche settimana) e la persona è ancora attiva, scegli un'altra issue.
-4. **Ricerca delle pull request aperte.** Cerca il numero dell'issue o alcune parole chiave del titolo. Non tutte le PR sono correttamente collegate alla relativa issue.
+4. **Ricerca delle pull request aperte.** Cerca il numero della issue o alcune parole chiave del titolo. Non tutte le PR sono correttamente collegate alla relativa issue.
 
 Se il commento in cui qualcuno si propone di lavorarci è vecchio e la persona non dà più notizie, di solito puoi chiedere gentilmente: "Ciao @nome, stai ancora lavorando a questa issue? In caso contrario, mi piacerebbe occuparmene." Poi attendi qualche giorno.
 
@@ -42,12 +42,12 @@ Se il commento in cui qualcuno si propone di lavorarci è vecchio e la persona n
 Fai una valutazione onesta delle tue capacità. Una buona prima issue da affrontare:
 
 - **Ha un comportamento atteso chiaro.** Sai spiegare in una frase cosa dovrebbe succedere.
-- **È riproducibile.** L'issue contiene dei passaggi, uno snippet di codice o un comando che genera un errore. In caso contrario, riprodurre il problema sarà il tuo primo compito, e condividere i passaggi per riprodurlo sarà già un contributo.
-- **Ha un ambito limitato.** Puoi individuare quale file o funzione potrebbe essere coinvolto. Cerca nel codice il messaggio di errore o il nome della funzione menzionata nell'issue.
+- **È riproducibile.** La issue contiene dei passaggi, uno snippet di codice o un comando che genera un errore. In caso contrario, riprodurre il problema sarà il tuo primo compito, e condividere i passaggi per riprodurlo sarà già un contributo.
+- **Ha un ambito limitato.** Puoi individuare quale file o funzione potrebbe essere coinvolto. Cerca nel codice il messaggio di errore o il nome della funzione menzionata nella issue.
 - **Non richiede una decisione progettuale.** Se i manutentori stanno ancora discutendo su *come* dovrebbe funzionare, aspetta.
 - **Funziona sul tuo computer.** Evita bug che si verificano solo su Windows se usi macOS, bug legati alla GPU se non ne hai una e situazioni simili.
 
-## Un metodo rapido per valutare le dimensioni di un'issue
+## Un metodo rapido per valutare le dimensioni di una issue
 
 Dedica dai 20 ai 30 minuti a questa valutazione prima di decidere di occupartene:
 
@@ -55,7 +55,7 @@ Dedica dai 20 ai 30 minuti a questa valutazione prima di decidere di occupartene
 2. Riproduci il bug oppure individua nel codice il punto in cui implementare la funzionalità.
 3. Trova il test esistente relativo a quell'area del progetto.
 
-Se sei riuscito a completare tutte e tre le attività, probabilmente l'issue ha dimensioni adeguate. Se dopo 30 minuti sei ancora in difficoltà, prova a scegliere un'altra issue oppure poni una domanda specifica nell'issue (capitolo 7).
+Se sei riuscito a completare tutte e tre le attività, probabilmente la issue ha dimensioni adeguate. Se dopo 30 minuti sei ancora in difficoltà, prova a scegliere un'altra issue oppure poni una domanda specifica nella issue (capitolo 7).
 
 ## Lista di controllo
 
@@ -64,4 +64,4 @@ Se sei riuscito a completare tutte e tre le attività, probabilmente l'issue ha 
 - [ ] Ho riprodotto il problema oppure so esattamente dove apportare la modifica.
 - [ ] I manutentori non stanno ancora discutendo sull'approccio da seguire.
 
-Successivo: [La tua prima pull request, passo dopo passo](../05-first-pull-request.md)
+Successivo: [La tua prima pull request, passo dopo passo](../05-first-pull-request.md) (in inglese)
