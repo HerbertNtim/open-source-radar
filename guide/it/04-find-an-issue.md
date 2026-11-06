@@ -36,3 +36,13 @@ Prima di scrivere anche una sola riga di codice, controlla tutti questi aspetti:
 4. **Ricerca delle pull request aperte.** Cerca il numero dell'issue o alcune parole chiave del titolo. Non tutte le PR sono correttamente collegate alla relativa issue.
 
 Se il commento in cui qualcuno si propone di lavorarci è vecchio e la persona non dà più notizie, di solito puoi chiedere gentilmente: "Ciao @nome, stai ancora lavorando a questa issue? In caso contrario, mi piacerebbe occuparmene." Poi attendi qualche giorno.
+
+## Riesci a completarla?
+
+Fai una valutazione onesta delle tue capacità. Una buona prima issue da affrontare:
+
+- **Ha un comportamento atteso chiaro.** Sai spiegare in una frase cosa dovrebbe succedere.
+- **È riproducibile.** L'issue contiene dei passaggi, uno snippet di codice o un comando che genera un errore. In caso contrario, riprodurre il problema sarà il tuo primo compito, e condividere i passaggi per riprodurlo sarà già un contributo.
+- **Ha un ambito limitato.** Puoi individuare quale file o funzione potrebbe essere coinvolto. Cerca nel codice il messaggio di errore o il nome della funzione menzionata nell'issue.
+- **Non richiede una decisione progettuale.** Se i manutentori stanno ancora discutendo su *come* dovrebbe funzionare, aspetta.
+- **Funziona sul tuo computer.** Evita bug che si verificano solo su Windows se usi macOS, bug legati alla GPU se non ne hai una e situazioni simili.
